@@ -3,7 +3,7 @@
 This project demonstrates the construction of ETL pipelines using PySpark on Databricks. It showcases data ingestion from various sources (CSV, Parquet, Delta Table), leverages the Factory Pattern for flexible reader creation, and employs PySpark DataFrame API and Spark SQL for business logic implementation. Data is loaded into both a Data Lake and a Data Lakehouse for analysis purposes. The project also highlights commonly encountered PySpark problems, including broadcast joins, partitioning and bucketing, window functions (LAG, LEAD), Delta tables.
 
 # Architeture Diagram
-![Architecture Diagram](ArchitectureDiag.png)
+![Architecture Diagram](Architecture.png)
 
 ## Key Concepts and Techniques
 
